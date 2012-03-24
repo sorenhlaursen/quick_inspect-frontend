@@ -38,6 +38,7 @@
 		A3B8F69D151DDF3400B8B475 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B8F69C151DDF3400B8B475 /* MainViewController.m */; };
 		A3B8F69F151DDF3400B8B475 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3B8F69E151DDF3400B8B475 /* MainViewController.xib */; };
 		A3B8F6A3151DDF3400B8B475 /* verify.sh in Resources */ = {isa = PBXBuildFile; fileRef = A3B8F6A2151DDF3400B8B475 /* verify.sh */; };
+		A3B8F6AA151DDF7200B8B475 /* www in Resources */ = {isa = PBXBuildFile; fileRef = A3B8F6A9151DDF7200B8B475 /* www */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,10 +56,10 @@
 		A3B8F665151DDF3400B8B475 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		A3B8F667151DDF3400B8B475 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		A3B8F669151DDF3400B8B475 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		A3B8F66D151DDF3400B8B475 /* quickinspect-Info.plist */ = {isa = PBXFileReference; path = "quickinspect-Info.plist"; sourceTree = "<group>"; };
+		A3B8F66D151DDF3400B8B475 /* quickinspect-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "quickinspect-Info.plist"; sourceTree = "<group>"; };
 		A3B8F66F151DDF3400B8B475 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A3B8F671151DDF3400B8B475 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A3B8F673151DDF3400B8B475 /* quickinspect-Prefix.pch */ = {isa = PBXFileReference; path = "quickinspect-Prefix.pch"; sourceTree = "<group>"; };
+		A3B8F673151DDF3400B8B475 /* quickinspect-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "quickinspect-Prefix.pch"; sourceTree = "<group>"; };
 		A3B8F674151DDF3400B8B475 /* Cordova.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cordova.framework; path = /Users/Shared/Cordova/Frameworks/Cordova.framework; sourceTree = "<absolute>"; };
 		A3B8F679151DDF3400B8B475 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Resources/en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A3B8F67D151DDF3400B8B475 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Resources/es.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -71,13 +72,14 @@
 		A3B8F691151DDF3400B8B475 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Resources/splash/Default@2x.png"; sourceTree = "<group>"; };
 		A3B8F693151DDF3400B8B475 /* Capture.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Capture.bundle; path = Resources/Capture.bundle; sourceTree = "<group>"; };
 		A3B8F695151DDF3400B8B475 /* Cordova.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Cordova.plist; sourceTree = "<group>"; };
-		A3B8F698151DDF3400B8B475 /* AppDelegate.h */ = {isa = PBXFileReference; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
+		A3B8F698151DDF3400B8B475 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		A3B8F699151DDF3400B8B475 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
-		A3B8F69B151DDF3400B8B475 /* MainViewController.h */ = {isa = PBXFileReference; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
+		A3B8F69B151DDF3400B8B475 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
 		A3B8F69C151DDF3400B8B475 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Classes/MainViewController.m; sourceTree = "<group>"; };
 		A3B8F69E151DDF3400B8B475 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainViewController.xib; path = Classes/MainViewController.xib; sourceTree = "<group>"; };
-		A3B8F6A1151DDF3400B8B475 /* README */ = {isa = PBXFileReference; name = README; path = Plugins/README; sourceTree = "<group>"; };
+		A3B8F6A1151DDF3400B8B475 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; name = README; path = Plugins/README; sourceTree = "<group>"; };
 		A3B8F6A2151DDF3400B8B475 /* verify.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = verify.sh; sourceTree = "<group>"; };
+		A3B8F6A9151DDF7200B8B475 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 		A3B8F63F151DDF3400B8B475 = {
 			isa = PBXGroup;
 			children = (
+				A3B8F6A9151DDF7200B8B475 /* www */,
 				A3B8F66B151DDF3400B8B475 /* quickinspect */,
 				A3B8F650151DDF3400B8B475 /* Frameworks */,
 				A3B8F64E151DDF3400B8B475 /* Products */,
@@ -329,6 +332,7 @@
 				A3B8F696151DDF3400B8B475 /* Cordova.plist in Resources */,
 				A3B8F69F151DDF3400B8B475 /* MainViewController.xib in Resources */,
 				A3B8F6A3151DDF3400B8B475 /* verify.sh in Resources */,
+				A3B8F6AA151DDF7200B8B475 /* www in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +436,7 @@
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
@@ -452,6 +457,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
@@ -475,6 +481,7 @@
 					"DEBUG=1,",
 					"CORDOVA_FRAMEWORK=1",
 				);
+				GCC_THUMB_SUPPORT = NO;
 				INFOPLIST_FILE = "quickinspect/quickinspect-Info.plist";
 				OTHER_LDFLAGS = (
 					"-weak_framework",
@@ -505,6 +512,7 @@
 					"NDEBUG=1,",
 					"CORDOVA_FRAMEWORK=1",
 				);
+				GCC_THUMB_SUPPORT = NO;
 				INFOPLIST_FILE = "quickinspect/quickinspect-Info.plist";
 				OTHER_LDFLAGS = (
 					"-weak_framework",
